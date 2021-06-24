@@ -14,7 +14,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>student-mangement-with-role</name>
 	<description>Student Management project for Spring Boot</description>
-
+	<packaging>war</packaging>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
