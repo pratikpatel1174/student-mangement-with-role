@@ -1,0 +1,19 @@
+INSERT INTO db_practical.roles (name) VALUES ('Doctor');
+INSERT INTO db_practical.roles (name) VALUES ('Patient');
+
+
+
+INSERT INTO db_practical.users (username, password, enabled) VALUES ('nilesh', '$2a$10$TN/xK6ZrMLv0/5bme6980ebcrNtvec1MBBUSJKulEdgn46eXROCiK', '1');
+INSERT INTO db_practical.users (username, password, enabled) VALUES ('mahesh', '$2a$10$G3ZnjzWpTvpJK9fsD.sQoOLUR5tU33wgAYmxrperVqgtznd4X9YcK', '1');
+INSERT INTO db_practical.users (username, password, enabled) VALUES ('suresh', '$2a$10$grU4VrxAmr3zuf8dSFCvKel4swsA0che9MHvcYeg9PmziJ5rNoDji', '1');
+INSERT INTO db_practical.users (username, password, enabled) VALUES ('ramesh', '$2a$10$.OuhGWhG65fQlRFMUUuUf..KHTYo7kB9GbuWqjNcQksinpT7QAiCK', '1');
+INSERT INTO db_practical.users (username, password, enabled) VALUES ('admin', '$2a$10$cWJ7j4S7ny5iU6cNXaNd2Ow000MmRuOjKpX5RvrP5g9NIyQ/dCH9C', '1');
+
+
+
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (1, 1); 
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (2, 2); 
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (3, 1); 
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (4, 2); 
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (4, 1); 
+INSERT INTO db_practical.users_roles (user_id, role_id) VALUES (5, 2);
