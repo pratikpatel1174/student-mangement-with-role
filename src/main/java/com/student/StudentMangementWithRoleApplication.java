@@ -8,7 +8,7 @@ public class StudentMangementWithRoleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentMangementWithRoleApplication.class, args);
-		System.out.println("application started");
+		//System.out.println("application started");
 	}
 
 }
